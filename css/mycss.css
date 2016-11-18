@@ -3,9 +3,7 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size:1.8em; 
-	margin:0;
-	padding:0;
-	height:100%;
+
 }
 
 .navbar-default{
@@ -80,14 +78,15 @@ hr.star-light:after, hr.star-primary:after {
 }
 
 
-.home .d1{
-	padding-left:75px;
-	padding-top:20px;
-	padding-bottom:50px;
-}
 .d1 h3, .d2 h3{
 	font-weight:700;
 }
+.home .d1 {
+    padding-left: 75px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
 .home .d2{
 	background-color:#2f3a84;
 	color:#ffffff;
@@ -107,25 +106,28 @@ hr.star-light:after, hr.star-primary:after {
 	background-image:url("../img/3.png");
 	background-size: cover;
 	padding-right:0px;
-	padding-top:70px;
-	padding-bottom:115px;
+	padding-top:90px;
+	padding-bottom:135px;
 	color:#ffffff;
 }
 .nosotros .d2{
 	background-color:#3d3d3d;
 	color:#ffffff;
 	height:100%;
-		padding-top:70px;
-	padding-bottom:115px;
+	padding-top:90px;
+	padding-bottom:135px;
 }
 
 
 
+.fixmargenizquierdo{
+	margin-right:0px!important;
+}
 
 /*LINEA DEL TIEMPO*/
 
 .mytimeline{
-	margin-top:100px;
+	padding-top:100px!important;
 }
 .page-header {
     max-width: 240px;
@@ -303,4 +305,218 @@ hr.star-light:after, hr.star-primary:after {
 
 .timeline-body > p + p {
   margin-top: 5px;
+}
+
+/*Fin linea del tiempo */
+
+
+
+
+
+.ventajas{
+	padding-top:70px;
+	background-color:#2f3a84;
+	color:#FFFFFF;
+	padding-bottom:50px;
+	
+}
+.ventajas h3{
+	text-align: center;
+}
+
+
+/*Inicio de Diseño de lista normal*/
+
+.marked-list{
+	margin-left: 140px;
+	position: relative;
+    padding-left: 39px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+	
+}
+.marked-list li {
+    position: relative;
+    list-style: none;
+}
+
+.marked-list:before {
+	
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 12px;
+    bottom: 14px;
+    width: 2px;
+    background-color: #e6e5e5;
+}
+
+
+.marked-list li:after {
+    position: absolute;
+    content: "";
+    height: 9px;
+    width: 9px;
+    left: -39px;
+    top: 11px;
+    background-color: #17a598;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.marked-list li:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 27px;
+    left: -35px;
+    top: 14px;
+    background-color: #e6e5e5;
+    -moz-transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.marked-list li {
+    position: relative;
+
+}
+
+
+.marked-list li a{
+    color:#ffffff;
+	text-decoration:none;
+
+}
+/*Fin de diseño de lista normal*/
+
+
+
+
+
+.mapa{
+	margin-bottom:-10px;
+}
+iframe {
+pointer-events: none;
+}
+
+
+
+mysoluciones{
+	margin: auto auto;
+width:80%;
+}
+ .mysoluciones h3{
+	 color:#112f9f;
+ }
+
+.normal{
+	padding-top:70px;
+	padding-bottom:70px;
+}
+ .fazul{
+	background-color:#112F9F;
+	padding-top:150px;
+	padding-bottom:50px;
+	height: 750px;
+ }  
+  .fazul h4{
+	color:#ffffff;
+	text-align:center;
+ }
+
+
+
+
+ .footer{
+     background-color:#dde2f1;
+	 text-align:center;
+	 padding-top:10px;
+	 padding-bottom:10px;
+	 color:#9fa3b9;
+}
+
+.footer p{
+	font-size:15px;
+}
+.nosotros h3{
+	text-align:center!important;
+}
+.nosotros div p{
+	font-size:15px;
+}
+.txtgris{
+	font-size:15px;
+	color:#b3b3b3;
+}
+
+.boxgris{
+	
+	background-color: #f3f3f3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px; 
+}
+
+.txtazul{
+	color:#112f9f;
+	font-weight: bold;
+}
+
+
+/*Back to top*/
+
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #2f3a84 url(../img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
 }
