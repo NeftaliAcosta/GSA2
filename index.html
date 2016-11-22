@@ -24,13 +24,14 @@ Todos los derechos reservados para nuestro cliente
   
 	<script src="js/jquery-1.12.4.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modernizr.js"></script>
 	<script type="text/javascript" src="js/myjs.js"></script>
 
 </head>
-  </head>
+
   <body>
 	<!--Inicio menú-->
-	<div class="container-fluid ">
+	<div class="container-fluid menucolor">
 		<!-- Navigation -->
 		<nav class="navbar-default" role="navigation">
 			<div class="container divmenu">
@@ -55,13 +56,13 @@ Todos los derechos reservados para nuestro cliente
 							<a class="page-scroll" href="soluciones.html">Soluciones</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="cursos.html">Cursos</a>
+							<a class="page-scroll" href="/cursos">Cursos</a>
 						</li>
 						<li>
 							<a class="page-scroll" href="nosotros.html">Nosotros</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="index.html/#contact">Contacto</a>
+							<a class="page-scroll" href="../#contacto">Contacto</a>
 						</li>
 					</ul>
 				</div>
@@ -80,9 +81,9 @@ Todos los derechos reservados para nuestro cliente
 	
 	<!--Inicio Portada--> 
 	<header class="portada">
-		<h1>Espandiendo posibilidades</h1>
+		<h1>Expandiendo posibilidades</h1><br>
 		<hr class="star-light">
-		<h2>SIEMPRE EN BUSCA DE LA MEJORA CONTINUA</h2>
+		<br><h2>SIEMPRE EN BUSCA DE LA MEJORA CONTINUA</h2>
 	</header>
 	<!--Fin portada-->
 	
@@ -94,12 +95,12 @@ Todos los derechos reservados para nuestro cliente
 				<div class="row">
                         <h3>BIENVENIDOS A NUESTRO SITIO</h3>
                             <div class="col-xs-12 col-sm-2" >
-								<hr class="myhr">
+								<hr class="myhrr">
                             </div>
                             <div class="col-xs-12 col-sm-10" >
-                            <p> Somos una empresa Mexicana dedicada a proveer soluciones a personas y organizaciones que siempre busca la mejora continua agregando valor a través de nuestros servicios.</p>
+								<p id="somos"> Somos una empresa Mexicana dedicada a proveer soluciones a personas y organizaciones que siempre busca la mejora continua agregando valor a través de nuestros servicios.</p>
                             </div>
-                  </div>
+                  </div> 
 			</div>
 			 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 d2">
                   <div class="row">
@@ -120,61 +121,50 @@ Todos los derechos reservados para nuestro cliente
 	</div>
 	<!--Fin quienes somos-->
 	
-	
-	<!--Inicio nosotros-->
-	     <div class="container-fliud nosotros">
-            <div class="row">
-
+<!--Inicio Nosotros -->
+        <div class="container-fliud nosotros">
+            <div class="row fixmargenizquierdo">
               <div class="col-xs-12 col-sm-7 d1">
-
-
+					<div class="row">
 				  <div class="col-lg-12 text-center">
 							<h2>POR QUE NOSOTROS</h2>
-							<hr class="star-light">
-					</div>
-
-                       <div class="row">
+							<hr class="mediana">
+						</div>                     
 							<div class="col-lg-12 col-md-12">
 								<p class = "text-center">MISIÓN Y VISION</p>
 							</div>               
                      </div>
-               
               </div>
 
-
               <div class="col-xs-12 col-sm-5 d2">
-                 
                          <div class="col-lg-12 text-center">
 							<h2>Quienes somos</h2>
-							<hr class="star-light">
+							<hr class="mediana"> 
 						</div>
-
-                       <div class="row">
 							<div class="col-lg-12 col-md-12">
 								<p class = "text-center">NUESTRA COMPAÑÍA.</p>
 							</div>               
-                     </div>
+                 
               </div>
             </div>
         </div>
-	<!--Fin nosotros-->
-	
+
+
+<!-- fin Nosotros-->
+
 	    <!--Inicio linea del tiempo -->
-  <div class="container mytimeline">
-		  <div class="page-header">
-			<h3 id="timeline">ÁREAS DE EXPERIENCIA</h3>
-		  </div>
-		  <ul class="timeline">
+	<div class="container mytimeline">
+		<div class="page-header">
+			<h4 id="timeline">ÁREAS DE EXPERIENCIA</h4>
+		</div>
+			<ul class="timeline">
 			<li>
-			  <div class="mypunto"></div>
-			  <div class="timeline-panel">
-				<div class="timeline-heading">
-				
-				  
-				</div>
-				<div class="timeline-body">
-					<img src="img/11.png" class="img-responsive picture" />  
-				</div>
+				<div class="mypunto"></div>
+				<div class="timeline-panel">
+					<div class="timeline-heading"></div>
+					<div class="timeline-body">
+						<img src="img/11.png" class="img-responsive picture" />  
+					</div>
 			  </div>
 			</li>
 			<li class="timeline-inverted">
@@ -206,16 +196,13 @@ Todos los derechos reservados para nuestro cliente
 			</li>
 			<li>
 			<div class="mypunto"></div>
-			  <div class="timeline-panel">
-
-				<div class="timeline-body">
-			   <img src="img/8.png" class="img-responsive picture" />
-
-
-				</div>
+				<div class="timeline-panel">
+					<div class="timeline-body">
+						<img src="img/8.png" class="img-responsive picture" />
+					</div>
 			  </div>
 			</li>
-						<li class="timeline-inverted">
+			<li class="timeline-inverted">
 			<div class="mypunto"></div>
 			  <div class="timeline-panel">
 
@@ -226,9 +213,101 @@ Todos los derechos reservados para nuestro cliente
 			</li>
 		  
 		  </ul>
-</div>
-
-
-        <!--Fin linea del tiempo -->
+	</div>
+	<!--Fin linea del tiempo -->
 	
+	
+	
+	
+	
+		<!-- Inicio Ventajas-->
+		<div class="container-fluid ventajas">
+			<div class="container">
+				<img src="img/4.png" class="img-responsive imghr" />   
+				<h3>VENTAJAS DE LA CONSULTORÍA</h3>
+						  <ul class="marked-list">
+							<li><a href="#">La especialización permite altos ingresos.</a></li>
+							<li><a href="#">Se establece una red de contactos que amplía oportunidades.</a></li>
+							<li><a href="#">Permite alcanzar fines y objetivos de la organización.</a></li>
+							<li><a href="#">Resuelve problemas internos de la Empresa.</a></li>
+							<li><a href="#">Permite construir relaciones relevantes creando "Lealtad".</a></li>
+						  </ul>
+			</div>
+		</div>
+		<!-- Fin Ventajas-->
+
+
+		<!--Inicio mapa-->
+		<div class="container-fliud mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7522.332589513787!2d-99.252016!3d19.49148!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20313f279c523%3A0x5c8eb6463eb425ff!2sLimoneros+2%2C+Valle+de+San+Mateo%2C+53240+Naucalpan+de+Ju%C3%A1rez%2C+M%C3%A9x.%2C+M%C3%A9xico!5e0!3m2!1ses!2smx!4v1477022333969" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+		<!--Fin mapa-->
+
+	
+	<a name="contacto" id="contacto"></a>
+<!-- Inicio contacto-->
+	<div class="container-fluid contacto">
+                <div class="row">
+                        <div class="col-xs-12 col-sm-5"><br>
+							<div class="row fixmargen">
+								<div class="col-xs-2">
+									<hr class="myhr">
+								</div>
+								<div class="col-xs-10">
+									<p id="txtdireccion">
+                                        Limoneros No.2-C <br>
+                                        Col. Boulevares <br>
+                                        Naucalpan de Júarez <br>
+                                        C.P. 53140 <br>
+                                        Estado de México <br><br>
+										
+										Tel. +52 (01 55) 6821 7038<br>
+										E-mail: contacto@gsaconsulting.com.mx
+                                    </p>
+								</div>
+							</div>
+                        </div>
+						
+						
+                        <div class="col-xs-12 col-sm-7 divcontacto">
+                            <h3>ESCRÍBENOS</h3>
+							<form>	
+								<div class="row">
+									<div class="col-xs-12 col-sm-4">
+										<input type='tex' class="form-control" id="nombre" placeholder="Nombre*" required/>
+									</div>
+									<div class="col-xs-12 col-sm-4">
+										<input type='email' class="form-control" id="correo" placeholder="E-mail*" required/>
+									</div>
+									<div class="col-xs-12 col-sm-4">
+										<input type='tel' class="form-control" id="telefono" placeholder="Whatsapp*" required/>
+									</div>
+			
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-xs-12">	
+										<textarea class="form-control" rows="5" id="mensaje" placeholder="Mensaje:"></textarea>
+									</div>
+								</div>
+								<br>
+								<button type="button" class="btn btn-default btnenviar">Enviar</button>
+							</form><br>
+                        </div>
+						
+                </div>
+            </div>
+   
+			<!-- Fin contacto-->
+
+	
+		<!--Inicio footer-->
+		<div class="container-fluid footer">
+			<p>Copyright 2016 GSA Consulting | Aviso de Privacidad</p>
+			<p>Powered by Servicios Dinámicos</p>
+		</div> 
+		<!--Fin footer-->
+		
+		<a href="#0" class="cd-top">Top</a>
+	</body>
 </html>
