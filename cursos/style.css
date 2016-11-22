@@ -1,0 +1,246 @@
+
+/*html,body
+{
+width:100%;
+height:100%;
+min-height: 100%; 
+}*/
+.myheader{
+	background-color:#e5ecf4;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.logo{
+	max-width:250px;
+}
+
+.myheader .container .row h1{
+	 display:inline;
+}
+
+.mycontenedorhome{
+	width: 100%;
+    height: 90%;
+	background-image: url('img/mybackgroud.png');
+	background-size: cover;
+	padding-top: 9%;
+    padding-left: 4%;
+	padding-bottom:4%;
+}
+.txthead{
+	float:right;
+}
+.mycontenedorhome h2{
+	color: #ffffff;
+	margin-top:0;
+}
+
+.cintahome{
+	position:absolute;
+	width:100%;
+	height:50px;
+	background-color:#000000;
+	opacity: 0.6;
+	color:#ffffff;
+	margin-left: -51px;
+	padding-left:20px;
+	padding-top:10px;
+	z-index: 2;
+	bottom: 0;
+	margin-bottom: -30px;
+}
+
+
+#f1{
+	border: 10px solid #bdbfbe;
+	background-color:#d6d7db;
+	padding:20px;
+	margin-top:-30%;
+	border-radius: 25px;
+}
+ #f1 p{
+	 color: #919296;
+ }
+ 
+ #idtitle{
+	 text-align: center;
+ }
+
+ .myimg{
+	 max-width:60%;
+	 margin:0 auto;
+ }
+
+  .myimgpopup{
+	 width:20%;
+	 margin:0 auto;
+ }
+ .cursos h3{
+	 text-align:center;
+ }
+
+#btnf1, #form2, #form3, .mybloquef, #c1{
+	cursor: pointer; cursor: hand;
+}
+ .mybloque{
+	margin: 10px;
+    background-color: #112f9f;
+	color:#ffffff;
+	height:55px;
+	padding:10px; 
+	border-radius: 5px;
+	text-align:center;
+ }
+.mydiv1{
+	background-color:#5bb6af;
+	color:#ffffff;
+	font-size: 17px;
+}
+
+.mydiv1 h1,.mydiv2 h1{
+	text-align: center;
+	color:#ffffff;
+}
+.mydiv1 h2,.mydiv2 h2{
+	text-align: center;
+	color:#faf200;
+}
+
+.myhr{
+	text-align: center;
+	margin:0 auto;
+	width: 40%;
+}
+
+
+.mydiv2{
+	background-color:#416b69;
+	color:#ffffff;
+	font-size: 17px;
+}
+
+ul {
+	list-style-type: square;
+    
+	
+}
+.paloma {
+	list-style-image: url('img/iconn.png');
+	}
+
+ul li{
+	padding-bottom: 1.5ex;
+}
+
+#form2, #form3, #form4{
+	border: 10px solid #bdbfbe;
+	background-color:#d6d7db;
+	border-radius: 25px;
+	padding:20px;
+}
+#myspan{
+	color:#fb8000;
+}
+
+.negritas{
+	font-size:1.5em;
+	font-weight: bold;
+}
+.footer{
+	padding-top:30px;
+	padding-bottom:30px;
+	text-align:center;
+	color:#1e288a;
+}
+
+#azul{
+	color:#28b1f0;
+	text-shadow: 5px 5px 5px #000000;
+}
+#naranja{
+	color:#f7812d;
+	text-shadow: 5px 5px 5px #000000;
+}
+
+
+
+/*back to top*/
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #0338aa url(img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
+
+/*FIXED MOVIL*/
+@media (max-width: 544px) {
+	
+	.cintahome{
+		display:none;
+	}
+	#f1 {
+		margin-top: 0%;
+	}
+}
+/*--------------------------------------------------------------------------*/
+
+
+
+
